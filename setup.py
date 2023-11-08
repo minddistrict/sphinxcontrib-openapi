@@ -23,8 +23,7 @@ setup(
     packages=find_namespace_packages(include=["sphinxcontrib.*"]),
     include_package_data=True,
     zip_safe=False,
-    use_scm_version={"root": here},
-    setup_requires=["setuptools_scm >= 1.15"],
+    version="0.8.4.dev0",
     install_requires=[
         "sphinx >= 2.0",
         "sphinxcontrib-httpdomain >= 1.5.0",
