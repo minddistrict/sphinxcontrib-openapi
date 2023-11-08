@@ -23,7 +23,7 @@ setup(
     packages=find_namespace_packages(include=["sphinxcontrib.*"]),
     include_package_data=True,
     zip_safe=False,
-    version="0.8.4.dev0",
+    version="0.8.4+md.1",
     install_requires=[
         "sphinx >= 2.0",
         "sphinxcontrib-httpdomain >= 1.5.0",
